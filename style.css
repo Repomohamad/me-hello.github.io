@@ -1,0 +1,98 @@
+* {
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --Maincolor: #2b2b2b;
+}
+header nav {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--Maincolor);
+}
+header {
+   width: 100%; 
+   background-color: var(--Maincolor);
+}
+.head {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 12px;
+    color: white;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 26px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -99;
+    background-color: var(--Maincolor);
+}
+
+section {
+    position: relative;
+}
+
+.h1 {
+    margin-left: 10%;
+    color: white;
+    width: 80%;
+    font-size: 35px;
+    position: absolute;
+    top: 350px;
+    margin-right: 10%;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 130px;
+    left: 58%;
+}
+
+button {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    left: 171px;
+    top: 490px;
+    margin: 10px;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 29px;
+    color: white;
+    font-size: 18px;
+}
+
+.btn-1 {
+    left: 340px;
+}
+
+p {
+    margin-left: 10%;
+    color: white;
+    width: 80%;
+    font-size: 20px;
+    position: absolute;
+    top: 450px;
+    margin-right: 10%;
+}
+
